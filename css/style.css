@@ -47,18 +47,36 @@ body {
 .nav-left ul,
 .nav-right ul {
     position: relative;
-    display: inline-block;
+
 }
 
 .nav-left a,
 .nav-right a {
     text-decoration: none;
+    color: black;
 } 
 
-.btn-nav {
+#btn-nav {
     line-height: 1rem;
     color: white;
     background-color: rgba(0, 97, 255, 1);
-    margin-right: 1rem;
     padding: 5px;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: auto;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .dropdown-content a {
+      display: inline-block;
+      padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
