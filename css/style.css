@@ -20,8 +20,9 @@ body {
 }
 
 .container {
-    max-width: 2680px;
+    max-width: 1460px;
     min-width: 800px;
+    margin: 0 auto;
 }
 
 .btn-blu {
