@@ -145,14 +145,12 @@ h1 {
 .col-left {
     float: left;
     width: 30%;
-    display: inline-block;
     padding-top: 60px;
 }
 
 .col-right {
     float:left;
     width: 70%;
-    display: inline-block;
     padding-top: 60px;
 }
 
