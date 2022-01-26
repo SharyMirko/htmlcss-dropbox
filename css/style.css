@@ -64,7 +64,6 @@ h2 {
 
 .min-width {
     width: 80%;
-    background-color: tomato;
     height: 100vh;
     position: inherit;
     margin-left: 10%;
@@ -192,8 +191,7 @@ h3 {
 
 .card {
     width: calc((80% - 2rem) / 3);
-    height: auto;
-    background-color: chartreuse;
+    height: 690px;
     margin-right:2rem;
     float: left;
     border: black 1px solid;
@@ -204,6 +202,10 @@ h3 {
     text-align: center;
     border-bottom: 2px solid black;
     line-height: 1.8rem;
+}
+
+.card button {
+    margin-left: 20px;
 }
 
 .card ul {
@@ -220,6 +222,30 @@ h3 {
 }
 
 .card li {
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 0.5rem;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+
+li hr {
+    width: 50px;
+    color: 1px solid gray;
+}
+
+li i {
+    display: inline-block;
+    font-size: 20px;
+}
+
+#blue {
+    color: blue;
+}
+
+.card2 {
+    width: 83%;
+    height: 250px;
+    margin-top: 30px;
+    float: left;
+    border: black 1px solid;
 }
