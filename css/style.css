@@ -24,6 +24,23 @@ body {
     min-width: 800px;
 }
 
+.btn-blu {
+line-height: 1rem;
+color: white;
+background-color: rgba(0, 97, 255, 1);
+padding: 10px;
+border: none;
+margin: 10px auto;
+}
+
+br {
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 3rem;
     font-weight: bold;
@@ -122,22 +139,27 @@ h1 {
     text-align: left;
     position: relative;
     top: 10%;
+    margin-bottom: 60px;
 }
 
 .col-left {
     float: left;
-    width: 40%;
+    width: 30%;
     display: inline-block;
     padding-top: 60px;
 }
 
 .col-right {
-    float: right;
-    width: 40%;
+    float:left;
+    width: 70%;
     display: inline-block;
     padding-top: 60px;
 }
 
 .col-right img {
-    width: 40%;
+    width: 120%;
+}
+
+.col-left a i {
+    font-size: 2rem;
 }
