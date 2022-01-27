@@ -257,8 +257,8 @@ li hr {
 }
 
 li i {
-    display: inline-block;
     font-size: 20px;
+    float: left;
 }
 
 #blue {
@@ -511,3 +511,21 @@ cite {
     display: block;
 }
 
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 5% 0 2rem 15%;
+}
+
+.footer ul {
+    color: white;
+    list-style: none;
+    display: inline flow-root list-item;
+    margin-right: 100px;
+}
+
+.footer li {
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+}
