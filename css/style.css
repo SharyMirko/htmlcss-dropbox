@@ -69,6 +69,7 @@ h2 {
     z-index: 1;
     line-height: 60px;
     border-bottom: 1px rgb(0, 0, 0, 0.5) solid;
+
 }
 
 .min-width {
@@ -89,6 +90,7 @@ h2 {
     float: right;
     margin-left: 1rem;
     margin-top: 1rem;
+    
 }
 
 .nav-left li,
@@ -97,6 +99,19 @@ h2 {
     display: inline-block;
     margin-right: 2rem;
 }
+
+.nav-left li:hover {
+    border-bottom:rgba(0, 97, 255, 1) 1px solid;
+}
+
+.nav-right li:hover {
+    border-bottom:rgba(0, 97, 255, 1) 1px solid;
+}
+
+#noborder:hover {
+    border: none;
+}
+
 .nav-left ul,
 .nav-right ul {
     position: relative;
