@@ -347,15 +347,14 @@ margin: 10px auto;
 }
 
 .square svg {
-    width: 100%;
+    width: 83%;
+    position: relative;
+    right: 50%;
+    top: 50%;
+    transform: translate(60%, -50%);
+    fill: white;
 }
 
-.des {
-    background-color: rgb(171, 209, 160);
-    border: 10px solid rgb(212, 232, 207);
-    height: 100%;
-    width: 100%;
-}
 
 .square-big {
     width: 33.8%;
@@ -376,4 +375,54 @@ margin: 10px auto;
     width: 33%;
     height: 33vw;
     float: left;
+}
+
+
+.des {
+    background-color: rgb(171, 209, 160);
+    border: 10px solid rgb(212, 232, 207);
+    height: 100%;
+    width: 100%;
+}
+
+.asu {
+    background-color: rgb(89, 19, 43);
+    height: 100%;
+    width: 100%;
+}
+
+
+.uf {
+    background-color: rgb(60, 146, 201);
+    height: 100%;
+    width: 100%;
+}
+.topp {
+    background-color: rgb(236, 59, 47);
+    height: 100%;
+    width: 100%;
+}
+
+.wbr {
+    background-color: rgb(197,41,43);
+    height: 100%;
+    width: 100%;
+}
+
+.hc {
+    background-color: rgb(171,192,200);
+    height: 100%;
+    width: 100%;
+}
+
+.lp {
+    background-color: rgb(16, 39, 124);
+    height: 100%;
+    width: 100%;
+}
+
+.cc {
+    background-color: rgb(250,216,86);
+    height: 100%;
+    width: 100%;
 }
