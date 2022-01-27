@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: white;
+    overflow-x: hidden;
 }
 
 .clearfix::after {
@@ -23,6 +24,10 @@ body {
     max-width: 1460px;
     min-width: 800px;
     margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .btn-blu {
@@ -65,10 +70,10 @@ h2 {
 
 .min-width {
     width: 80%;
-    height: 100vh;
     position: inherit;
     margin-left: 10%;
     padding-left: 10%;
+    display: block;
 }
 
 .nav-left {
@@ -150,10 +155,24 @@ h2 {
 .slogan {
     text-align: left;
     position: relative;
-    top: 15%;
+    top: 70px;
     margin-bottom: 60px;
     display: inline-block;
 }
+
+.slogan2 {
+    text-align: left;
+    width: 50%;
+    position: relative;
+    top: 70px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.slogan2 a {
+    text-decoration: underline;
+}
+
 
 .col-left {
     float: left;
@@ -276,14 +295,45 @@ position: absolute;
 .col-left3 {
     float: left;
     padding-top: 65px;
-    position: absolute;
 }
 
 .col-right3 {
     float: right;
-padding-top: 65px;
-position: absolute;
-left: 15%;
-width: 70%;
-padding-left: 37%;
+    padding-top: 100px;
+    position: absolute;
+    left: 15%;
+    width: 65%;
+    padding-left: 37%;
+}
+
+.btn-grey {
+line-height: 1rem;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+border: #616161 2px solid;
+margin: 10px auto;
+}
+
+.col-right3 p {
+    margin:  25px 0;
+}
+
+.column {
+    width: calc(80% / 3);
+    height: auto;
+    margin-right: 1em;
+    margin-top: 2rem;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.column img {
+    width: 80%;
+}
+
+.column h4,
+.column p {
+    text-align: left;
+    padding-top: 15px;
 }
