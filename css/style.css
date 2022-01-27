@@ -12,6 +12,7 @@ html {
 body {
     background-color: white;
     overflow-x: hidden;
+
 }
 
 .clearfix::after {
@@ -28,6 +29,8 @@ body {
 
 .full-width {
     width: 100%;
+    background-color: rgba(180, 208, 231, 1);
+    padding: 5%;
 }
 
 .btn-blu {
@@ -453,3 +456,58 @@ cite {
     height: 100%;
     width: 100%;
 }
+
+.slogan3 {
+    text-align: left;
+    display: inline-block;
+    width: 35%;
+    color: #61082B;
+    left: -4%;
+}
+
+.btn-float {
+    float: left;
+    left: 65%;
+    position: relative;
+    top: 30%;
+    line-height: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border: none;
+    margin: 10px auto;
+  }
+
+.faq {
+    list-style: none;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+    line-height: 3rem;
+    margin-bottom: 5%;  
+    width: 85%;
+}
+
+.faq li {
+    border-bottom: 1px solid gray;
+}
+
+.faq li i {
+    color: black;
+    float: right;
+}
+
+.hidden {
+    display: none;
+    list-style: none;
+    line-height: 1rem;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.hidden li {
+    border: none;
+}
+
+.faq li:hover .hidden {
+    display: block;
+}
+
