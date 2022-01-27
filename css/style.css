@@ -529,3 +529,21 @@ cite {
     line-height: 2rem;
     text-align: center;
 }
+
+.footer a {
+    color: white;
+}
+
+.lang i {
+    color: white;
+    font-size: 14px;
+}
+
+.lang {
+    font-size: 14px;
+color: white;
+border-top: 1px solid white;
+width: 110px;
+margin-top: 20px;
+padding-top: 10px;
+}
